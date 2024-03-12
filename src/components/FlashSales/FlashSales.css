@@ -1,0 +1,248 @@
+.FlashSalesContainer{
+    width: 100%; /* You can set a specific width if needed */
+    max-width: 100%; /* Ensure it's responsive */
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 4px;
+    color: #313133 ;
+    background: #fff ;
+    margin: 20px 0 20px 0 ;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.05); 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.FlashSalesContainer small{
+    font-size: 16px;
+    color: #313131;
+}
+.FlashSalesContent:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.75); 
+}
+.slick-list{
+    margin: 30px;
+}
+.header {
+    background: #e61601!important;
+    width: 100%;
+    height: 48px;
+    /* margin: 30px; */
+    margin-left: auto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.FlashSalesContainer .header{
+    background: #e61601!important;
+    width: 100%;
+    height: 48px;
+    /* margin: 30px; */
+    margin-left: auto;
+    color: #fff!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.FlashSalesContainer .header h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff!important; 
+}
+.header h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.FlashSalesContainer .header a{
+    color: #fff!important; 
+}
+.header a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+}
+.FlashSalesItem{
+    max-width: 320px;
+    max-height: 320px;
+    /* overflow: hidden; */
+    margin: 6px;
+}
+.FlashSalesItem img{
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.FlashSalesContent{
+    position: relative;
+    background: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    border-radius: 4px;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+.FlashSalesContent small{
+    font-size: 16px!important;
+    font-weight: 500!important;
+    color: #313133!important;
+}
+.FlashSalesContent p{
+    font-size: 14px;
+    color: #313131;
+    font-weight: 400;
+    margin: 8px;
+}
+.FlashSalesContent .small small{
+    font-size: .75rem!important;
+    font-weight: 400!important;
+    color: #75757a!important;
+    text-decoration: line-through;
+}
+.faRight {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    font-size: 14px;
+    color: #313133;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.FlashSalesContent:hover{
+    box-shadow: 0 2px 2px 4px rgba(0, 0, 0, .05);
+}
+.FlashSalesContent:hover img{
+    scale: 1.04;
+}
+.FlashSalesContent small{
+    font-size: 14px;
+    text-align: center;
+    color:#313133;
+    margin: 8px;
+}
+.timeLeft{
+  background:  linear-gradient(to right,#b81a0a 14.000000000000002%,#c7c7cd 14.000000000000002%);
+  height: 2px;
+  padding: 8px 0 0 0;
+  margin: 4px 0 0;
+  background-color: #d4d4d6;
+  border-radius: 4px;
+}
+
+.FlashSalesContainer:hover .slick-next{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: #75757a;
+    color: transparent!important;
+    opacity: 1;
+    right: 8px;
+}
+
+.FlashSalesContainer:hover .slick-prev{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #75757a !important;
+    opacity: 1;
+    z-index: 99;
+}
+.percent{
+    background: #fef3e9;
+    color: #f68b1e;
+    padding: 0 8px;
+    font-size: 14px;
+    min-width: 40px;
+    min-height: 24px;
+    max-width: 40px;
+    max-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+@media (max-width: 560px) {
+    .FlashSalesContainer{
+        margin: 5px 0 5px 0 ;
+    }
+    .FlashSalesContainer .header{
+        height: 25px!important
+    }
+    .FlashSalesContent {
+        margin-bottom: 5px;
+        padding-bottom: 5px; 
+    }
+    .header{
+        height: 25px;
+    }
+    .header h2{
+        font-size: 12px!important;
+    }
+    .FlashSalesContainer:hover .slick-next,
+    .FlashSalesContainer:hover .slick-prev {
+        display: none !important;
+    }
+    .FlashSalesContainer small {
+        font-size: 11px!important;
+    }
+    .FlashSalesContent p {
+        font-size: 10px;
+    }
+    .FlashSalesContent .small small {
+        font-size: 10px!important;
+    }
+.FlashSalesContent small{
+    font-size: 10px!important;
+}
+.FlashSalesContent p{
+    font-size: 8px
+}
+.FlashSalesContent .small small{
+    font-size: 8px!important;
+}
+
+.faRight {
+    margin-left: 2px
+}
+}

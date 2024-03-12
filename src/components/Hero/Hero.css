@@ -1,0 +1,31 @@
+.heroSection{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding-top: 5em;
+}
+.heroNav{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    line-height: 32px;
+    padding-left: 10px;
+}
+.heroNav ul li a {
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    .heroNav {
+        height: 384px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .heroNav{
+        display: none;
+    }
+}

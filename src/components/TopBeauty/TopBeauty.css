@@ -1,0 +1,89 @@
+.TopBeautyContainer{
+    width: 100%;
+    border-radius: 4px;
+    color: #313133 ;
+    background: #fff ;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.05); 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px 0 20px 0;
+    border-radius: 4px;
+}
+.TopBeautyContainer .header{
+    background: #96D2C8!important;
+    color: #313133!important;
+}
+.TopBeautyContainer .header h2{
+    font-size: 20px!important;
+    font-weight: 500!important;
+    color: #313133!important;
+}
+.TopBeautyContainer .header a{
+    font-size: 14px!important;
+    font-weight: 500!important;
+}
+.TopBeautyContainer:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.75); 
+}
+.slick-list{
+    margin: 30px;
+}
+
+.TopBeautyContainer:hover .slick-next{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: #75757a;
+    color: transparent!important;
+    opacity: 1;
+    right: 8px;
+}
+
+.TopBeautyContainer:hover .slick-prev{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #75757a !important;
+    opacity: 1;
+    z-index: 99;
+}
+
+
+@media (max-width: 560px) {
+    .TopBeautyContainer {
+        margin: 5px 0 5px 0;
+    }
+    .TopBeautyContainer .header h2{
+        font-size: 12px!important;
+        font-weight: 500!important;
+        color: #313133!important;
+    }
+    .TopBeautyContainer .header a{
+        font-size: 10px!important;
+        font-weight: 500!important;
+    }
+}

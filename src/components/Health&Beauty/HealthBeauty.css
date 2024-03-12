@@ -1,0 +1,59 @@
+.HealthBeautyContainer{
+    width: 100%;
+    border-radius: 4px;
+    color: #313133 ;
+    background: #fff ;
+    overflow: hidden;
+    margin: auto auto;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.05); 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.HealthBeautyContent:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.75); 
+}
+.slick-list{
+    margin: 30px;
+}
+
+.tv{
+    width: 100%;
+    height: 48px;
+    margin: 30px;
+    margin-left: auto;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+
+
+
+@media (max-width: 560px) {
+    .HealthBeautyContainer .imgContent{
+        height: 100%;
+        width: 100%;
+    }
+    .HealthBeautyContainer .slick-slide {
+        width: 80px;
+        height:auto;
+    }
+   .HealthBeautyContainer  .slick-slide  img {
+        height: 100%;
+        width: 100%
+    }
+    .textContainer{
+        min-height: 24px!important;
+    }
+    .textContainer h2{
+        font-size: 12px!important;
+    }
+    .textContainer a{
+        font-size: 10px!important;
+    }
+}

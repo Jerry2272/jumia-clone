@@ -1,0 +1,84 @@
+.Linkcontainer{
+    width: 100%;
+    height: auto;
+    padding: 14px 24px 40px 24px;
+    background-color: #535357;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.Linkcontainer .Linkcontent {
+    display: flex;
+}
+.Linkcontainer .Linkcontent ul{
+    padding: 0;
+    margin-left: 55px;
+}
+.Linkcontainer .Linkcontent ul h5{
+    font-size: .80rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.Linkcontainer .Linkcontent ul li a{
+    color: #f1f1f2!important;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.h5 h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .80rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+}
+
+
+.payMe{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+.payMe .img{
+    /* margin-left: 10em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+.payMe .img img{
+    margin-left: 15px;
+}
+.payMe ul li{
+    display: inline-flex;
+    margin-left: 30px;
+    padding: 20px 0 10px 0;
+}
+
+
+
+@media (min-width: 992px) {
+
+    .payMe{
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 100px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .Linkcontainer{
+        display: none;
+    }
+}

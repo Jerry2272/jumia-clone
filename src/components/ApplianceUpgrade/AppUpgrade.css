@@ -1,0 +1,65 @@
+.AppUpgradeContainer{
+    width: 100%;
+    border-radius: 4px;
+    background: #fff ;
+    overflow: hidden;
+    margin: auto auto;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.05); 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.AppUpgradeContainer h2 , a{
+    color: #313133 ;
+}
+.AppUpgradeContent:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.75); 
+}
+.slick-list{
+    margin: 30px;
+}
+
+.AppUpgradeContainer .header{
+    background: #96D2C8!important;
+}
+
+.AppUpgradeContainer:hover .slick-next{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: #75757a;
+    color: transparent!important;
+    opacity: 1;
+    right: 8px;
+}
+
+.AppUpgradeContainer:hover .slick-prev{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #75757a !important;
+    opacity: 1;
+    z-index: 99;
+}

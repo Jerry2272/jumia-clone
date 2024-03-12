@@ -1,0 +1,30 @@
+.mobileFooter{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #313133;
+    color: #fff;
+    text-align: center;
+}
+
+.mobileFooter ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mobileFooter ul li a{
+    color: #fff!important;
+    text-transform: uppercase!important;
+    font-size: 10px!important;
+    margin-left: 10px;
+}
+
+@media (min-width: 992px) {
+    .mobileFooter{
+        display: none;
+    }
+}

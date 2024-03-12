@@ -1,0 +1,49 @@
+.slideContainer{
+    width: 100%!important;
+    height: auto!important;
+    position: relative;
+    overflow: hidden;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.2); */
+    /* margin: auto; */
+}
+.slideContent{
+    max-height: 150px;
+    overflow: hidden;
+ }
+.slideContent img{
+    width: 100%!important;
+    height: 100%!important;
+}
+.slick-slider{
+    width: 100%!important;
+}
+.slick-list{
+     margin: 0!important;
+     padding: 0!important;
+}
+
+
+ .slideContainer .slick-dots li button::before{
+    width: 8px;
+    height: 8px;
+   color: #f68b1e;
+   font-size: 10px;
+   transform: translateY(-3.50em);
+ }
+
+ 
+ .slideContainer .slick-dots li.slick-active button:before{
+    color: #f68b1e;
+}
+/* .overLay{
+    background: red;
+    position: absolute;
+    inset: 0;
+} */
+
+
+@media ( min-width: 992px) {
+    .slideContent{
+    min-height: 384px;
+    }
+}

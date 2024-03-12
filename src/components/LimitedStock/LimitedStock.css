@@ -1,0 +1,83 @@
+.LimitedStockContainer{
+    width: 100%;
+    border-radius: 4px;
+    color: #313133 ;
+    background: #fff ;
+    overflow: hidden;
+    margin: 20px 0 20px 0 ;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.05); 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.LimitedStockContent:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.75); 
+}
+.slick-list{
+    margin: 30px;
+}
+
+.LimitedStockContainer .header{
+    background: #96D2C8!important;
+}
+
+.LimitedStockContainer:hover .slick-next{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: #75757a;
+    color: transparent!important;
+    opacity: 1;
+    right: 8px;
+}
+
+.LimitedStockContainer:hover .slick-prev{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    left: 8px;
+    border-radius: 99px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #75757a !important;
+    opacity: 1;
+    z-index: 99;
+}
+
+.LimitedStockContainer .LimitedStockContent{
+    max-width: 220px;
+    max-height: 220px;
+    /* overflow: hidden; */
+    margin: 6px;
+}
+
+element.style {
+    width: 0!important;
+}
+
+
+
+@media (max-width: 560px) {
+    .LimitedStockContainer{
+        margin: 5px 0 5px 0;
+    }
+}
