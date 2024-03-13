@@ -1,3 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.rootContainer{
+  width: 100%;
+  height: auto;
+background-color: #BA74DF;
+}
 .App {
   text-align: center;
 }
@@ -34,5 +51,26 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width:992px) {
+  .rootContainer {
+    padding: 0 40px 56px 40px;
+  }
+}
+
+@media(max-width: 680px) {
+  p{
+    font-size: 10px!important;
+  }
+  .textContainer h2{
+    font-size: 16px!important;
+  }
+  .textContainers h2{
+    font-size: 16px!important;
+  }
+  .header h2{
+    font-size: 16px!important;
   }
 }
