@@ -5,13 +5,14 @@
     padding-top: 5em;
 }
 .heroNav{
-    width: 250px;
+    width: 300px;
     height: auto;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     line-height: 32px;
     padding-left: 10px;
+    margin-right: 30px;
 }
 .heroNav ul li a {
     font-size: 14px;
@@ -27,5 +28,11 @@
 @media (max-width: 560px) {
     .heroNav{
         display: none;
+    }
+    .heroSection{
+     margin-top: 0.45em;
+    }
+    .heroSection {
+        padding-top: 0em;
     }
 }

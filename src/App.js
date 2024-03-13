@@ -38,7 +38,7 @@ function App() {
   return (
     <>
     <div className="rootContainer">
-     {/* <Navbar /> */}
+     <Navbar />
      <Hero />
      <ClearanceSales />
      <TopSelling /> 

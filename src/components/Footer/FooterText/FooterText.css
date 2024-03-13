@@ -22,3 +22,32 @@
     padding: 8px 0 8px 0;
     color: #313133;
 }
+
+
+
+@media (max-width:560px) {
+    .footerTextContainer{
+        background: #fff;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.05);
+        padding: 20px 16px 30px 16px;
+        margin: 20px 0 56px 0;
+        border-radius: 4px;
+    }
+    .footerTextContainer h2{
+        font-size: 15px;
+        font-weight: bold;
+        color: #313133;
+        padding: 8px 0 8px 0;
+    }
+    .footerTextContainer h5{
+        padding: 8px 0 8px 0;
+        color: #313133;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .footerTextContainer p{
+        font-size: 10px;
+        padding: 8px 0 8px 0;
+        color: #313133;
+    }
+}
