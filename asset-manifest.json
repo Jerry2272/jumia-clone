@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jumia-clone/static/css/main.51121ff8.css",
+    "main.css": "/jumia-clone/static/css/main.10c64977.css",
     "main.js": "/jumia-clone/static/js/main.705d4642.js",
     "static/js/453.0d8b7f17.chunk.js": "/jumia-clone/static/js/453.0d8b7f17.chunk.js",
     "static/media/HSlide2.png": "/jumia-clone/static/media/HSlide2.1c82a4e375ab3cf83b6b.png",
@@ -205,12 +205,12 @@
     "static/media/slick.ttf": "/jumia-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/jumia-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/jumia-clone/index.html",
-    "main.51121ff8.css.map": "/jumia-clone/static/css/main.51121ff8.css.map",
+    "main.10c64977.css.map": "/jumia-clone/static/css/main.10c64977.css.map",
     "main.705d4642.js.map": "/jumia-clone/static/js/main.705d4642.js.map",
     "453.0d8b7f17.chunk.js.map": "/jumia-clone/static/js/453.0d8b7f17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51121ff8.css",
+    "static/css/main.10c64977.css",
     "static/js/main.705d4642.js"
   ]
 }
